@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         if (name && email && message) {
             try {
-                const response = await fetch("https://your-api.onrender.com/send", {
+           const response = await fetch("https://portfolio-backend-vrte.onrender.com/send", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ name, email, message })
