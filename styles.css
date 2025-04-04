@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header, section, footer { padding: 20px; }
+nav ul { list-style: none; display: flex; gap: 15px; }
+.project { margin-bottom: 20px; }
+form input, form textarea { display: block; margin: 10px 0; width: 100%; padding: 10px; }
